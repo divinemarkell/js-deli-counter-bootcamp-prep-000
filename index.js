@@ -9,6 +9,6 @@ function nowServing (katzDeliLine) {
     return "There is nobody waiting to be served!";
   }
 }
-function currentLine (current) {
-  
+function currentLine (line) {
+  return "The line is currently empty.";
 }
