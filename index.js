@@ -10,9 +10,13 @@ function nowServing (katzDeliLine) {
   }
 }
 function currentLine (line) {
+  const names = [];
+  for (let i = 0, l = line.length; i < l; i++) {
+    names.push(`${i + 1}. ${line[i]}`);
   if (line.length) {
-    return `The line is currently: `
+    return `The line is currently: ${names.`
   } else {
   return "The line is currently empty.";
+  }
   }
 }
