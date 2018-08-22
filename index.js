@@ -1,0 +1,1 @@
+function takeANumber (line, name) {
