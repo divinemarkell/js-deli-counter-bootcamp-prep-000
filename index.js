@@ -14,7 +14,7 @@ function currentLine (line) {
   for (let i = 0, l = line.length; i < l; i++) {
     names.push(`${i + 1}. ${line[i]}`);
   if (line.length) {
-    return `The line is currently: ${names.join( , ) }`;
+    return `The line is currently: ${names.join(' , ') }`;
   } else {
   return "The line is currently empty.";
   }
